@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ark-nova-dw",
+    "\\ark-nova-dw\\public",
+    "\\ark-nova-dw\\src"
   ],
+  "SelectedNode": "\\ark-nova-dw\\src\\App.js",
   "PreviewInSolutionExplorer": false
 }
