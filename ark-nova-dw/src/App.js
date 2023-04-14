@@ -1,5 +1,6 @@
 import { useCallback, useState } from "react";
 import { getInitializedPlayingCards } from "./CardUtils";
+import Grid from "./grid/Grid";
 import Card from "./Card";
 import "./App.css";
 import Button from "react-bootstrap/Button";
@@ -35,6 +36,7 @@ function App() {
           Click this <Button onClick={onClickShuffle}> Button </Button> to
           shuffle again
         </p>
+        <Grid />
       </header>
     </div>
   );
